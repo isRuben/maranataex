@@ -231,6 +231,7 @@ h1 {
 @media screen and (max-width: 667px) {
   .col {
     width: 50%;
+    height: 50%
     text-align: center;
   }
 
