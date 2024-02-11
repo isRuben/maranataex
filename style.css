@@ -1,0 +1,295 @@
+body {
+  background-color: whitesmoke;
+  text-align: left;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  margin-top: 15px;
+}
+
+header {
+  width: 90%;
+  max-width: 990px;
+  background: white;
+  margin: auto;
+  border-radius: 25px;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 0%;
+}
+
+div.menuu {
+  padding: 2%;
+  text-align: center;
+}
+
+.menuimg {
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 280px;
+}
+
+img {
+  margin-top: 10px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu2 {
+  position: fixed;
+  bottom: 1%;
+  right: 23.9%;
+}
+
+nav.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+nav.menu li {
+  margin: 5px;
+}
+
+.menu a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+  text-align: right;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+
+.menu a:hover {
+  box-shadow: inset 200px 0 0 0 red;
+  color: white;
+
+}
+
+.menu2 li {
+  display: inline-block;
+}
+
+.menu2 a {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+
+}
+
+.menu2 a:hover {
+  background: rgb(255, 0, 0);
+  background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(255, 175, 0, 1) 100%);
+}
+
+.home {
+  padding-bottom: 17px;
+  border-bottom: 2px solid #333;
+
+}
+
+.col {
+  width: 100%;
+  display: inline-block;
+  text-align: justify;
+  vertical-align: top;
+  padding: 1%;
+}
+
+.col h2 {
+  color: red;
+}
+
+.row {
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 30%;
+  padding: 20px 0 50px 0;
+  margin: 1% auto;
+  background: rgb(255, 0, 0);
+  background: linear-gradient(342deg, rgba(255, 0, 0, 1) 24%, rgba(0, 0, 0, 1) 100%);
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.link {
+  width: 300px;
+}
+
+.link h3 {
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.link a {
+  font-size: 15px;
+  color: white;
+  display: contents;
+  margin-bottom: 20px;
+}
+
+.socials {
+  padding-left: 0;
+  padding-right: 0;
+  margin: auto;
+}
+
+.socials a {
+  margin-right: 0%;
+  text-align: center;
+}
+
+form {
+  align-items: center;
+}
+
+.submit {
+  border: none;
+  color: black;
+  padding: 14px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: white;
+
+}
+
+.enlace {
+  border: none;
+  color: black;
+  padding: 10px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px red;
+  ;
+}
+
+h1 {
+  text-align: center;
+}
+
+.enlace {
+  border: none;
+  color: black;
+  padding: 10px 28px;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px red;
+}
+
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  display: none;
+}
+
+.cookie-banner p {
+  margin: 0;
+}
+
+.cookie-banner button {
+  background-color: #ff0000;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 667px) {
+  .col {
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header {
+    width: 90%;
+    max-width: 990px;
+    background: white;
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-bottom: 0;
+  }
+
+  nav.menu li {
+    margin: 10px;
+  }
+
+  .menu a {
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    transition: box-shadow .3s ease-in-out, color .3s ease-in-out;
+  }
+
+  .menu a:hover {
+    box-shadow: inset 0 50px 0 0 white;
+    color: black;
+  }
+
+  footer {
+    width: 100%;
+    height: 30%;
+    padding: 20px 0 50px 0;
+    margin: 1% auto;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(342deg, rgba(255, 0, 0, 1) 24%, rgba(0, 0, 0, 1) 100%);
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .footer-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
